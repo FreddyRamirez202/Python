@@ -1,0 +1,7 @@
+#ignore visual folder
+**/.vscode
+
+#ignore enviroment
+**/venv/
+
+
