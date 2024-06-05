@@ -1,7 +1,11 @@
 #ignore visual folder
 **/.vscode
+#ignore idea folder
+**/.idea
 
 #ignore enviroment
 **/venv/
+
+
 
 

@@ -2,7 +2,7 @@ from datetime import datetime
 
 def main():
     fecha_inicio = datetime(2023, 7, 14)
-    print("Freddy, recuerda que comenzaste tu relación con Emily el día 14 de Julio.")
+    print("Recuerda que comenzaste tu relación el día 14 de julio.")
 
     input("¿Olvidaste la fecha? Presiona Enter para continuar y proporciona la fecha actual.")
 
@@ -18,7 +18,7 @@ def main():
     anios = tiempo_transcurrido.days // 365
     meses = (tiempo_transcurrido.days % 365) // 30
 
-    print("Han pasado", anios, "años y", meses, "meses desde que comenzaste tu relación con Emily.")
+    print("Han pasado", anios, "años y", meses, "meses desde que comenzaste tu relación.")
 
 if __name__ == "__main__":
     main()
