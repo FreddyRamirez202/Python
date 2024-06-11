@@ -54,4 +54,3 @@ print("My name is {} and I am {} years old.".format(name, age)) #My name is John
 x = 10
 y = 20
 print(f"The sum of x and y is {x+y}.")  #The sum of x and y is 30.
-
