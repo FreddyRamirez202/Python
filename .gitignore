@@ -6,6 +6,9 @@
 #ignore enviroment
 **/venv/
 
+**/.venv/
+
+**/__pycache__
 
 
 
