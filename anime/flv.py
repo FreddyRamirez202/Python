@@ -5,7 +5,7 @@ anime series
 from animeflv import AnimeFLV
 
 with AnimeFLV() as api:
-    query = input("Escribe serie: ")
+    query = input("Escribe la serie que deseas buscar: ")
     elements = api.search(query)
 
     if not elements:
